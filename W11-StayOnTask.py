@@ -9,7 +9,7 @@ def close():
     return schedule.CancelJob
 
 def action():
-    playsound("C:\\Users\\jl255\\Downloads\\controversy.mp3")
+    playsound("C:") #put the directory to your audio
     schedule.every(5).minutes.do(close)
     windll.user32.MessageBoxW(0, "\n\n      5 minutes remaining.      \n\n\n", "Calculus Time.", 0) 
      
